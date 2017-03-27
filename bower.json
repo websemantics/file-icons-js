@@ -1,0 +1,27 @@
+{
+  "name": "file-icons-js",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/websemantics/file-icons-js",
+  "authors": [
+    "Adnan M.Sagar, <adnan@websemantics.ca>"
+  ],
+  "description": "File specific icons for Javascript. A port of Atom File-icons, https://github.com/file-icons/atom",
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "icons",
+    "octicons",
+    "mfizz",
+    "devicons"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
