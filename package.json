@@ -1,7 +1,7 @@
 {
   "name": "file-icons-js",
-  "version": "1.0.0",
-  "description": "File specific icons for Javascript. A port of Atom File-icons, https://github.com/file-icons/atom",
+  "version": "1.0.1",
+  "description": "File specific icons for the browser from Atom File-icons, https://github.com/file-icons/atom",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,9 +19,13 @@
     "devicons"
   ],
   "author": {
+    "name": "Daniel Brooker.",
+    "email": "dan@nocturnalcode.com"
+  },
+  "contributors": [{
     "name": "Adnan M.Sagar, PhD.",
     "email": "adnan@websemantics.ca"
-  },
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/websemantics/file-icons-js/issues"

@@ -10,7 +10,7 @@
 ├┤   │ │  ├┬╯        │  ├─┤  ╰╮╭╯  ├─┤  ╰─╮  │    ├┬╯  │  ├─╯   │ 
 ┴    ╰─╯  ┴╰─       ╰╯  ┴ ┴   ╰╯   ┴ ┴  ╰─╯  ╰─╯  ┴╰─  ┴  ┴     ┴ 
 ```
-> File specific icons for Javascript. A port of Atom File-icons, https://github.com/file-icons/atom
+> File specific icons for the browser from Atom File-icons, https://github.com/file-icons/atom
 
 <img alt="Icon previews" width="850" src="https://raw.githubusercontent.com/file-icons/atom/6714706f268e257100e03c9eb52819cb97ad570b/preview.png" />
 
@@ -30,22 +30,22 @@ bower i websemantics/file-icons-js
 
 ## Getting Started
 
-Include `css` styles from `assets/css/file-icons.css` in the header of an html document.
+Include `css` styles from `css/style.css` in the header of an html document.
 
-Get an instance of `FileIcons` class.
+Get an instance of `FileIcons` class,
 
 ```js
 var icons = window.FileIcons;
 ```
 
-Get the class name of the icon that represent a filename, for example `text-icon`.
+Get the class name of the icon that represent a filename (for example `text-icon`),
 
 ```js
 var filename = 'src/app.js';
 var class_name = icons.getClass(filename);
 ```
 
-You can also get a class name of the associated icon color.
+You can also get a class name of the associated icon color,
 
 ```js
 var  filename = 'README.md';
@@ -61,7 +61,7 @@ document.body.innerHTML = "<a><i class=" + class_name + "></i>$filename</a>";
 ## Resources
 
 - [Atom File Icons](https://github.com/file-icons/atom), file specific icons for improved visual grepping.
-- [Markdown Browser Plus](https://github.com/websemantics/markdown-browser-plus), Github flavoured, local file browser for viewing markdown documentation files.
+- [Markdown Browser Plus](https://github.com/websemantics/markdown-browser-plus), Github flavoured, local file browser for markdown docs.
 
 ## Support
 

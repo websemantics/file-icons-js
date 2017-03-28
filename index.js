@@ -2,11 +2,9 @@
  * ╭─╮ ┬ ┬   ╭─╮    ┬ ╭─╮ ╭─╮ ╭╮╭ ╭─╮   
  * ├┤  │ │   ├┤     │ │   │ │ │││ ╰─╮  
  * ┴   ┴ ┴─╯ ╰─╯    ┴ ╰─╯ ╰─╯ ╯╰╯ ╰─╯  
- * File specific icons for Javascript
+ * File specific icons for the browser 
+ * from Atom File-icons, https://github.com/file-icons/atom
  * 
- * A port of Atom File-icons, 
- * https://github.com/file-icons/atom
- *
  * @link      https://github.com/file-icons/atom
  * @author    Daniel Brooker, <dan@nocturnalcode.com>
  * @author    Adnan M.Sagar, <adnan@websemantics.ca>
