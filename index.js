@@ -1406,7 +1406,7 @@
 
     FileIcons.prototype.getClass = function(name) {
         var match = this.db.matchName(name)
-        return match ? match.getClass() : 'text-icon'
+        return match ? match.getClass() : null
     }
 
     /**
@@ -1419,7 +1419,7 @@
 
     FileIcons.prototype.getClassWithColor = function(name) {
         var match = this.db.matchName(name)
-        return match ? match.getClass(0) : 'text-icon'
+        return match ? match.getClass(0) : null
     }
 
     return new FileIcons(icondb)
