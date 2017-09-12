@@ -1,10 +1,10 @@
 /**
- * ╭─╮ ┬ ┬   ╭─╮    ┬ ╭─╮ ╭─╮ ╭╮╭ ╭─╮   
- * ├┤  │ │   ├┤     │ │   │ │ │││ ╰─╮  
- * ┴   ┴ ┴─╯ ╰─╯    ┴ ╰─╯ ╰─╯ ╯╰╯ ╰─╯  
- * File specific icons for the browser 
+ * ╭─╮ ┬ ┬   ╭─╮    ┬ ╭─╮ ╭─╮ ╭╮╭ ╭─╮
+ * ├┤  │ │   ├┤     │ │   │ │ │││ ╰─╮
+ * ┴   ┴ ┴─╯ ╰─╯    ┴ ╰─╯ ╰─╯ ╯╰╯ ╰─╯
+ * File specific icons for the browser
  * from Atom File-icons, https://github.com/file-icons/atom
- * 
+ *
  * @link      https://github.com/file-icons/atom
  * @author    Daniel Brooker, <dan@nocturnalcode.com>
  * @author    Adnan M.Sagar, <adnan@websemantics.ca>
@@ -1063,7 +1063,7 @@
     ["pascal-icon",["dark-purple","dark-purple"],/\.lpr$/i],
     ["patch-icon",["medium-green","medium-green"],/\.patch$/i],
     ["pawn-icon",["medium-orange","medium-orange"],/\.pwn$/i,,false,,/\.pwn$/i,/^PAWN$/i],
-    ["icon-file-pdf",["medium-red","medium-red"],/\.pdf$/i,,false,,,,/^%PDF/],
+    ["pdf-icon",["medium-red","medium-red"],/\.pdf$/i,,false,,,,/^%PDF/],
     ["perl-icon",["medium-blue","medium-blue"],/\.p(?:er)?l$|\.t$/i,,false,/^perl$/,/\.perl$/i,/^perl$/i],
     ["perl-icon",["dark-purple","dark-purple"],/\.ph$/i],
     ["perl-icon",["medium-purple","medium-purple"],/\.plx$/i],
