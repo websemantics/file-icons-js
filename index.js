@@ -393,7 +393,7 @@
     ["shuriken-icon",["dark-cyan","dark-cyan"],/\.ninja\.d$/i,2],
     ["nodemon-icon",["medium-green","medium-green"],/^nodemon\.json$|^\.nodemonignore$/i,2],
     ["normalize-icon",["medium-red","medium-red"],/^normalize\.(?:css|less|scss|styl)$/i,2],
-    ["npm-icon",["medium-red","medium-red"],/^(?:package\.json|\.npmignore|\.?npmrc|npm-debug\.log|npm-shrinkwrap\.json)$/i,2],
+    ["npm-icon",["medium-red","medium-red"],/^(?:package(?:-lock)?\.json|\.npmignore|\.?npmrc|npm-debug\.log|npm-shrinkwrap\.json)$/i,2],
     ["postcss-icon",["medium-yellow","dark-yellow"],/\bpostcss\.config\.js$/i,2],
     ["protractor-icon",["medium-red","medium-red"],/^protractor\.conf\./i,2],
     ["pug-icon",["medium-orange","medium-orange"],/^\.pug-lintrc/i,2],
