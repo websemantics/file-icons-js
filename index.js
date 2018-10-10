@@ -363,7 +363,7 @@
     ["gear-icon",["medium-blue","medium-blue"],/\.indent\.pro$/i,2],
     ["grunt-icon",["medium-yellow","medium-yellow"],/gruntfile\.js$/i,2],
     ["grunt-icon",["medium-maroon","medium-maroon"],/gruntfile\.coffee$/i,2],
-    ["gulp-icon",["medium-red","medium-red"],/gulpfile\.js$|gulpfile\.babel\.js$/i,2],
+    ["gulp-icon",["medium-red","medium-red"],/gulpfile\.((babel\.)?js|ts)$/i,2],
     ["gulp-icon",["medium-maroon","medium-maroon"],/gulpfile\.coffee$/i,2],
     ["html5-icon",["medium-cyan","medium-cyan"],/\.html?\.ecr$/i,2],
     ["html5-icon",["medium-red","medium-red"],/\.(?:html?\.erb|rhtml)$/i,2,false,,/\.html\.erb$/i,/^HTML$/i],
