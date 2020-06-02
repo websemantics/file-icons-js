@@ -8,6 +8,7 @@
  * @link      https://github.com/file-icons/atom
  * @author    Daniel Brooker, <dan@nocturnalcode.com>
  * @author    Adnan M.Sagar, <adnan@websemantics.ca>
+ * @author    Jacob Hrbek, <kreyren@rixotstudio.cz>
  */
 
 ;(function(root, factory) {
@@ -351,7 +352,7 @@
     ["d3-icon",["medium-orange","medium-orange"],/^d3(?:\.v\d+)?[^.]*\.js$/i,2],
     ["database-icon",["medium-red","medium-red"],/^METADATA\.pb$/,2],
     ["database-icon",["medium-red","medium-red"],/\.git[\/\\](?:.*[\/\\])?(?:HEAD|ORIG_HEAD|packed-refs|logs[\/\\](?:.+[\/\\])?[^\/\\]+)$/,2,true],
-    ["docker-icon",["dark-blue","dark-blue"],/^(?:Dockerfile|docker-compose)|\.docker(?:file|ignore)$/i,2,false,,/\.dockerfile$/i,/^Docker$/i],
+    ["docker-icon",["dark-blue","dark-blue"],/^(?:Dockerfile(\..*|)|docker-compose)|\.docker(?:file|ignore)$/i,2,false,,/\.dockerfile$/i,/^Docker$/i],
     ["docker-icon",["dark-orange","dark-orange"],/^docker-sync\.yml$/i,2],
     ["dojo-icon",["light-red","light-red"],/^dojo\.js$/i,2],
     ["ember-icon",["medium-red","medium-red"],/^ember(?:\.|(?:-[^.]+)?-(?:\d+\.)+(?:debug\.)?)js$/i,2],
