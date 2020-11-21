@@ -7,11 +7,5 @@ node_modules
 \#*\#
 *~
 *.lock
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-v][a-z]
-[._]sw[a-p]
-/test.mjs
-/test.js
 package-lock.json
 yarn.lock
