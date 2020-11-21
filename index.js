@@ -1248,7 +1248,7 @@
     ["sublime-icon",["dark-orange","dark-orange"],/\.sublime-syntax$/i],
     ["scd-icon",["medium-red","medium-red"],/\.scd$/i,,false,/sclang|scsynth/,/\.supercollider$/i,/^SuperCollider$/i],
     ["svg-icon",["dark-yellow","dark-yellow"],/\.svg$/i,,false,,/\.svg$/i,/^SVG$/i],
-    ["swift-icon",["medium-green","medium-green"],/\.swift$/i,,false,,/\.swift$/i,/^Swift$/i],
+    ["swift-icon",["light-orange","light-orange"],/\.swift$/i,,false,,/\.swift$/i,/^Swift$/i],
     ["sysverilog-icon",["medium-blue","dark-blue"],/\.sv$/i],
     ["sysverilog-icon",["medium-green","dark-green"],/\.svh$/i],
     ["sysverilog-icon",["medium-cyan","dark-cyan"],/\.vh$/i],
