@@ -6,22 +6,25 @@
 │    │   │   ││   ││  ────┤  │    ││      ││   ╰╯ ││   ││ │├────  │
 ╰────╯   ╰───╯╰───╯╰──────╯  ╰────╯╰──────╯╰──────╯╰───╯╰─╯╰──────╯
 ╭─╮  ╭─╮  ┬─╮         ┬  ╭─╮  ┬  ┬  ╭─╮  ╭─╮  ╭─╮  ┬─╮  ┬  ╭─╮  ╭┬╮
-├┤   │ │  ├┬╯         │  ├─┤  ╰╮╭╯  ├─┤  ╰─╮  │    ├┬╯  │  ├─╯   │ 
-┴    ╰─╯  ┴╰─       ╰─╯  ┴ ┴   ╰╯   ┴ ┴  ╰─╯  ╰─╯  ┴╰─  ┴  ┴     ┴ 
+├┤   │ │  ├┬╯         │  ├─┤  ╰╮╭╯  ├─┤  ╰─╮  │    ├┬╯  │  ├─╯   │
+┴    ╰─╯  ┴╰─       ╰─╯  ┴ ┴   ╰╯   ┴ ┴  ╰─╯  ╰─╯  ┴╰─  ┴  ┴     ┴
 ```
 > File specific icons for the browser from Atom File-icons, https://github.com/file-icons/atom
+
+[![Demo](https://img.shields.io/badge/File%icons-%E2%86%92-9D6EB3.svg?style=flat-square)](https://websemantics.github.io/file-icons-js)
+
 
 <img alt="Icon previews" width="850" src="https://raw.githubusercontent.com/file-icons/atom/6714706f268e257100e03c9eb52819cb97ad570b/preview.png" />
 
 ## Install
 
-Use `npm` to install as follows, 
+Use `npm` to install as follows,
 
 ```bash
 npm i websemantics/file-icons-js
 ```
 
-Or, `Bower`, 
+Or, `Bower`,
 
 ```bash
 bower i websemantics/file-icons-js
