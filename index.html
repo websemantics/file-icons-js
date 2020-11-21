@@ -36,8 +36,6 @@
     <script>
       var icons = window.FileIcons
 
-      console.log(icons)
-
       const directoryIcons = fileContainer.innerHTML = icons.db.directoryIcons.byName.reduce((acc, { icon, colour }) => ({ ...acc, [icon]: colour[0] }), {})
       const fileIcons = fileContainer.innerHTML = icons.db.fileIcons.byName.reduce((acc, { icon, colour }) => ({ ...acc, [icon]: colour[0] }), {})
       const getIcon = ([icon, colour]) => `<i class="${colour} ${icon}"><span class="tooltip">${icon.slice(0, -5)}</span></i>`
