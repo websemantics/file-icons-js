@@ -1,9 +1,8 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-    typeof define === 'function' && define.amd ? define(['exports'], factory) :
-      (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.FileIcons = {}))
-}(this, (function (exports) {
-  'use strict'
+  typeof define === 'function' && define.amd ? define(['exports'], factory) :
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.FileIcons = {}));
+}(this, (function (exports) { 'use strict';
 
   /**
    * ╭─╮ ┬ ┬   ╭─╮    ┬ ╭─╮ ╭─╮ ╭╮╭ ╭─╮
@@ -1109,7 +1108,7 @@
     ["book-icon", ["dark-blue", "dark-blue"], /^news(?:[-_.]?[-\d]+)?$/i, 0],
     ["v8-icon", ["medium-blue", "medium-blue"], /^(?:[dv]8|v8[-_.][^.]*|mksnapshot|mkpeephole)$/i, 0]],
     [[69, 147, 152, 154, 169, 192, 195, 196, 197, 198, 204, 217, 239, 244, 249, 251, 253, 258, 287, 292, 293, 303, 304, 309, 331, 333, 336, 343, 347, 353, 362, 380, 395, 398, 416, 420, 421, 422, 424, 431, 434, 448, 451, 465, 467, 468, 471, 480, 481, 482, 485, 486, 487, 525, 526, 529, 534, 555, 565, 570, 571, 572, 578, 580, 584, 586, 590, 601, 602, 626, 629, 658, 669, 670, 681, 688, 694, 696, 709, 714, 715, 745, 748, 755, 760, 769, 772, 778, 779, 798, 800, 803, 805, 808, 811, 822, 823, 826, 836, 838, 848, 854, 858, 860, 864, 865, 867, 868, 871, 881, 886, 903, 905, 924, 928, 936, 944, 987, 1000, 1003, 1005, 1023], [42, 57, 69, 105, 120, 121, 124, 126, 129, 143, 145, 147, 149, 151, 152, 154, 156, 157, 158, 166, 167, 169, 174, 192, 194, 195, 196, 197, 198, 204, 206, 210, 211, 213, 215, 216, 217, 223, 224, 225, 229, 230, 234, 236, 237, 238, 239, 242, 243, 244, 249, 251, 253, 255, 256, 258, 275, 285, 286, 287, 288, 290, 291, 292, 293, 294, 295, 297, 300, 301, 303, 304, 309, 312, 314, 326, 330, 336, 341, 342, 343, 346, 347, 350, 351, 352, 353, 359, 362, 365, 380, 381, 382, 383, 386, 390, 392, 394, 395, 398, 400, 416, 422, 439, 440, 442, 448, 451, 452, 453, 454, 458, 461, 463, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 479, 482, 485, 486, 487, 488, 489, 490, 522, 524, 525, 527, 529, 530, 533, 534, 543, 546, 547, 548, 549, 553, 555, 558, 560, 561, 565, 570, 571, 575, 578, 580, 582, 584, 586, 590, 600, 601, 602, 603, 604, 605, 612, 618, 626, 629, 657, 658, 664, 665, 668, 669, 675, 678, 679, 680, 681, 685, 687, 688, 689, 690, 691, 694, 696, 704, 707, 709, 714, 715, 716, 717, 718, 719, 734, 738, 741, 742, 744, 746, 747, 748, 753, 755, 760, 768, 769, 774, 776, 777, 778, 779, 781, 792, 797, 798, 801, 802, 803, 805, 807, 808, 811, 818, 822, 823, 826, 827, 828, 829, 836, 838, 841, 845, 847, 848, 850, 854, 858, 860, 862, 863, 864, 865, 867, 868, 871, 875, 881, 884, 886, 894, 896, 897, 898, 900, 901, 903, 905, 915, 923, 924, 928, 932, 933, 936, 937, 938, 944, 947, 951, 952, 954, 970, 982, 983, 984, 985, 986, 987, 995, 997, 1000, 1002, 1003, 1005, 1023, 1025, 1034, 1036, 1039, 1053, 1054, 1055, 1063], [41, 150, 282, 283, 284, 321, 889, 959], [42, 57, 69, 105, 120, 121, 124, 126, 129, 143, 145, 147, 149, 151, 152, 154, 156, 157, 158, 166, 167, 169, 174, 192, 194, 195, 196, 197, 198, 204, 206, 210, 211, 213, 215, 216, 217, 223, 224, 225, 229, 230, 234, 236, 237, 238, 239, 242, 243, 244, 249, 251, 253, 255, 256, 258, 275, 276, 285, 286, 287, 288, 290, 291, 292, 293, 294, 295, 297, 300, 301, 303, 304, 309, 311, 312, 314, 319, 326, 330, 336, 341, 342, 343, 346, 347, 350, 351, 352, 353, 359, 362, 365, 380, 381, 382, 383, 386, 390, 392, 394, 395, 398, 400, 412, 416, 418, 420, 421, 422, 424, 431, 432, 434, 439, 440, 442, 448, 451, 452, 453, 454, 458, 461, 463, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 479, 480, 481, 482, 483, 485, 486, 487, 488, 489, 490, 522, 524, 525, 527, 529, 530, 533, 534, 543, 546, 547, 548, 549, 553, 555, 558, 560, 561, 565, 570, 571, 575, 578, 580, 582, 584, 586, 590, 600, 601, 602, 603, 604, 605, 612, 618, 626, 629, 657, 658, 660, 661, 664, 665, 668, 669, 675, 678, 679, 680, 681, 685, 687, 688, 689, 690, 691, 694, 696, 704, 707, 709, 714, 715, 716, 717, 718, 719, 734, 738, 741, 742, 744, 746, 747, 748, 753, 755, 760, 768, 769, 774, 776, 777, 778, 779, 781, 792, 797, 798, 801, 802, 803, 805, 807, 808, 811, 818, 822, 823, 826, 827, 828, 829, 836, 838, 841, 845, 847, 848, 850, 854, 858, 860, 862, 863, 864, 865, 867, 868, 871, 875, 876, 881, 884, 886, 894, 896, 897, 898, 900, 901, 903, 905, 915, 923, 924, 928, 932, 933, 936, 937, 938, 944, 947, 951, 952, 954, 970, 982, 983, 984, 985, 986, 987, 995, 997, 1000, 1002, 1003, 1005, 1023, 1025, 1034, 1036, 1039, 1053, 1054, 1055, 1063], [106, 138, 178, 179, 180, 181, 182, 183, 184, 185, 186, 188, 189, 235, 261, 262, 263, 264, 265, 268, 273, 348, 372, 373, 374, 375, 376, 377, 410, 411, 493, 494, 495, 496, 497, 498, 499, 500, 501, 503, 504, 505, 506, 507, 509, 510, 511, 512, 513, 514, 516, 519, 520, 601, 674, 737, 754, 769, 781, 957, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022]]]
-  ]
+  ];
 
   var cache = {
     directoryName: {},
@@ -1120,7 +1119,7 @@
     scope: {},
     language: {},
     signature: {}
-  }
+  };
 
   /* ---------------------------------------------------------------------------
     * Icon
@@ -1146,16 +1145,16 @@
    */
   class Icon {
     constructor(index, data) {
-      this.index = index
-      this.icon = data[0]
-      this.colour = data[1]
-      this.match = data[2]
-      this.priority = data[3] || 1
-      this.matchPath = data[4] || false
-      this.interpreter = data[5] || null
-      this.scope = data[6] || null
-      this.lang = data[7] || null
-      this.signature = data[8] || null
+      this.index = index;
+      this.icon = data[0];
+      this.colour = data[1];
+      this.match = data[2];
+      this.priority = data[3] || 1;
+      this.matchPath = data[4] || false;
+      this.interpreter = data[5] || null;
+      this.scope = data[6] || null;
+      this.lang = data[7] || null;
+      this.signature = data[8] || null;
     }
 
     /**
@@ -1166,8 +1165,8 @@
      * @return {String}
      */
     getClass(colourMode, asArray) {
-      colourMode = colourMode !== undefined ? colourMode : null
-      asArray = asArray !== undefined ? asArray : false
+      colourMode = colourMode !== undefined ? colourMode : null;
+      asArray = asArray !== undefined ? asArray : false;
 
       // No colour needed or available
       if (colourMode === null || this.colour[0] === null) return asArray ? [this.icon] : this.icon
@@ -1195,10 +1194,10 @@
    */
   class IconTables {
     constructor(data) {
-      this.directoryIcons = this.read(data[0])
-      this.fileIcons = this.read(data[1])
-      this.binaryIcon = this.matchScope("source.asm")
-      this.executableIcon = this.matchInterpreter("bash")
+      this.directoryIcons = this.read(data[0]);
+      this.fileIcons = this.read(data[1]);
+      this.binaryIcon = this.matchScope("source.asm");
+      this.executableIcon = this.matchInterpreter("bash");
     }
 
     /**
@@ -1209,13 +1208,13 @@
      * @private
      */
     read(table) {
-      var icons = table[0]
-      var indexes = table[1]
+      var icons = table[0];
+      var indexes = table[1];
 
-      icons = icons.map((icon, index) => new Icon(index, icon))
+      icons = icons.map((icon, index) => new Icon(index, icon));
 
       // Dereference Icon instances from their stored offset
-      indexes = indexes.map(index => index.map(offset => icons[offset]))
+      indexes = indexes.map(index => index.map(offset => icons[offset]));
 
       return {
         byName: icons,
@@ -1235,14 +1234,14 @@
      * @return {Icon}
      */
     matchName(name, directory) {
-      directory = directory !== undefined ? directory : false
-      var cachedIcons = directory ? this.cache.directoryName : cache.fileName
-      var icons = directory ? this.directoryIcons.byName : this.fileIcons.byName
+      directory = directory !== undefined ? directory : false;
+      var cachedIcons = directory ? this.cache.directoryName : cache.fileName;
+      var icons = directory ? this.directoryIcons.byName : this.fileIcons.byName;
 
       if (cachedIcons[name]) return cachedIcons[name]
 
       for (var i in icons) {
-        var icon = icons[i]
+        var icon = icons[i];
         if (icon.match.test(name)) return cachedIcons[name] = icon
       }
 
@@ -1257,14 +1256,14 @@
      * @return {Icon}
      */
     matchPath(path, directory) {
-      directory = directory !== undefined ? directory : false
-      var cachedIcons = directory ? cache.directoryName : cache.fileName
-      var icons = directory ? this.directoryIcons.byPath : this.fileIcons.byPath
+      directory = directory !== undefined ? directory : false;
+      var cachedIcons = directory ? cache.directoryName : cache.fileName;
+      var icons = directory ? this.directoryIcons.byPath : this.fileIcons.byPath;
 
       if (cachedIcons[name]) return cachedIcons[name]
 
       for (var i in icons) {
-        var icon = icons[i]
+        var icon = icons[i];
         if (icon.match.test(path)) return cachedIcons[path] = icon
       }
 
@@ -1284,7 +1283,7 @@
       if (cache.language[name]) return cache.language[name]
 
       for (var i in this.fileIcons.byLanguage) {
-        var icon = this.fileIcons.byLanguage[i]
+        var icon = this.fileIcons.byLanguage[i];
         if (icon.lang.test(name)) return cache.language[name] = icon
       }
 
@@ -1302,7 +1301,7 @@
       if (cache.scope[name]) return cache.scope[name]
 
       for (var i in this.fileIcons.byScope) {
-        var icon = this.fileIcons.byScope[i]
+        var icon = this.fileIcons.byScope[i];
         if (icon.scope.test(name)) return cache.scope[name] = icon
       }
 
@@ -1322,7 +1321,7 @@
       if (cache.interpreter[name]) return cache.interpreter[name]
 
       for (var i in this.fileIcons.byInterpreter) {
-        var icon = this.fileIcons.byInterpreter[i]
+        var icon = this.fileIcons.byInterpreter[i];
         if (icon.interpreter.test(name)) return cache.interpreter[name] = icon
       }
 
@@ -1343,7 +1342,7 @@
    * FileIcons
    * ------------------------------------------------------------------------- */
 
-  const db = new IconTables(icondb)
+  const db = new IconTables(icondb);
 
   /**
    * Get icon class name of the provided filename. If not found, default to text icon.
@@ -1352,7 +1351,7 @@
    * @return {string}
    * @public
    */
-  const getClass = (name, match = db.matchName(name)) => match ? match.getClass() : null
+  const getClass = (name, match = db.matchName(name)) => match ? match.getClass() : null;
 
 
   /**
@@ -1362,12 +1361,12 @@
    * @return {string}
    * @public
    */
-  const getClassWithColor = (name, match = db.matchName(name)) => match ? match.getClass(0) : null
+  const getClassWithColor = (name, match = db.matchName(name)) => match ? match.getClass(0) : null;
 
-  exports.db = db
-  exports.getClass = getClass
-  exports.getClassWithColor = getClassWithColor
+  exports.db = db;
+  exports.getClass = getClass;
+  exports.getClassWithColor = getClassWithColor;
 
-  Object.defineProperty(exports, '__esModule', { value: true })
+  Object.defineProperty(exports, '__esModule', { value: true });
 
-})))
+})));
