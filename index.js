@@ -11,7 +11,6 @@
  * @author    Jacob Hrbek, <kreyren@rixotstudio.cz>
  */
 
-var root = this || global
 var cache = {
     directoryName: {},
     directoryPath: {},
@@ -1378,7 +1377,7 @@ var icondb = [
  * FileIcons
  * ------------------------------------------------------------------------- */
 
-const db = new IconTables(icondb)
+export const db = new IconTables(icondb)
 
 /**
  * Get icon class name of the provided filename. If not found, default to text icon.

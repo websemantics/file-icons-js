@@ -3,7 +3,7 @@
 
   <head>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script src="./index.js"></script>
+    <script src="./dist/file-icons.js"></script>
     <title>File Icons</title>
     <style>
       body {color:#444444; margin: 30px 60px;}
@@ -35,6 +35,8 @@
 
     <script>
       var icons = window.FileIcons
+
+      console.log(icons)
 
       const directoryIcons = fileContainer.innerHTML = icons.db.directoryIcons.byName.reduce((acc, { icon, colour }) => ({ ...acc, [icon]: colour[0] }), {})
       const fileIcons = fileContainer.innerHTML = icons.db.fileIcons.byName.reduce((acc, { icon, colour }) => ({ ...acc, [icon]: colour[0] }), {})
