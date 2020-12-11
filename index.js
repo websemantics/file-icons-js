@@ -342,7 +342,7 @@ const icondb = [
   ["database-icon", ["medium-yellow", "medium-yellow"], /\.(?:h|geo|topo)?json$/i],
   ["database-icon", ["light-red", "light-red"], /\.ya?ml$/i],
   ["database-icon", ["medium-maroon", "medium-maroon"], /\.cson$|\.ston$|^mime\.types$/i],
-  ["database-icon", ["dark-yellow", "dark-yellow"], /\.json5$/i, , false, /^json5$/, /\.json5$/i, /^js[0o]n5$/i],
+  ["database-icon", ["dark-yellow", "dark-yellow"], /\.json5$/i, , false, /^json5$/, /\.json5$/i, /^js[0o]n5$/i, /\.jsonc$/i],
   ["database-icon", ["medium-red", "medium-red"], /\.http$|\.pot?$/i],
   ["database-icon", ["medium-orange", "medium-orange"], /\.ndjson$|\.pytb$/i, , false, , /\.python\.traceback$/i],
   ["database-icon", ["light-blue", "light-blue"], /\.fea$/i, , false, , /\.opentype$/i, /^afdk[0o]$/i],
