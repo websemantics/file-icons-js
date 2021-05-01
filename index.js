@@ -528,7 +528,7 @@ const icondb = [
   ["igorpro-icon", ["dark-red", "dark-red"], /\.ipf$/i],
   ["image-icon", ["medium-orange", "medium-orange"], /\.a?png$|\.svgz$/i, , false, , , , /^.PNG\r\n\x1A\n/],
   ["image-icon", ["medium-yellow", "medium-yellow"], /\.gif$|\.ora$|\.sgi$/i, , false, , , , /^GIF8[97]a/],
-  ["image-icon", ["medium-green", "medium-green"], /\.je?pg$/i, , false, , , , /^\xFF\xD8\xFF[\xDB\xE0\xE1]|(?:JFIF|Exif)\0|^\xCF\x84\x01|^\xFF\xD8.+\xFF\xD9$/],
+  ["image-icon", ["medium-green", "medium-green"], /\.jpe?g$/i, , false, , , , /^\xFF\xD8\xFF[\xDB\xE0\xE1]|(?:JFIF|Exif)\0|^\xCF\x84\x01|^\xFF\xD8.+\xFF\xD9$/],
   ["image-icon", ["medium-blue", "medium-blue"], /\.ico$/i, , false, , , , /^\0{2}\x01\0/],
   ["image-icon", ["dark-blue", "dark-blue"], /\.webp$|\.iff$|\.lbm$|\.liff$|\.nrrd$|\.pcx$|\.vsdx?$/i, , false, , , , /^RIFF.{4}WEBPVP8/],
   ["image-icon", ["medium-red", "medium-red"], /\.bmp$/i, , false, , , , /^BM/],
