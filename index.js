@@ -60,7 +60,7 @@ const icondb = [
   ["brakeman-icon", ["dark-red", "dark-red"], /^brakeman\.ignore$/i, 2],
   ["broccoli-icon", ["medium-green", "medium-green"], /^Brocfile\./i, 2],
   ["package-icon", ["light-orange", "light-orange"], /Cargo\.toml$/i, 2],
-  ["lock-icon", ["medium-yellow", "medium-yellow"], /Cargo\.lock$/i, 2],
+  ["lock-icon", ["medium-yellow", "medium-yellow"], /(?:Cargo|poetry|Pipfile)\.lock$/i, 2],
   ["chai-icon", ["medium-red", "dark-red"], /^chai\.(?:[jt]sx?|es6?|coffee)$/i, 2],
   ["chartjs-icon", ["dark-pink", "dark-pink"], /^Chart\.js$/i, 2],
   ["circleci-icon", ["medium-green", "medium-green"], /^circle\.yml$/i, 2],
