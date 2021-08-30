@@ -308,7 +308,7 @@ const icondb = [
   ["zip-icon", ["medium-purple", "medium-purple"], /\.war$/i],
   ["zip-icon", ["dark-orange", "dark-orange"], /\.xar$/i, , false, , , , /^xar!/],
   ["zip-icon", ["light-orange", "light-orange"], /\.egg$/i],
-  ["config-icon", ["medium-yellow", "medium-yellow"], /\.(?:ini|desktop|directory|cfg|conf|prefs)$/i, , false, , /\.ini$/i, /^d[0o]sini$/i],
+  ["config-icon", ["medium-yellow", "medium-yellow"], /\.(?:ini|desktop|directory|cfg|conf|prefs)$|MANIFEST\.in$/i, , false, , /\.ini$/i, /^d[0o]sini$/i],
   ["config-icon", ["medium-purple", "medium-purple"], /\.properties$/i, , false, , /\.java-properties$/i],
   ["config-icon", ["medium-green", "medium-green"], /\.(?:toml|opts)$|Pipfile$/i],
   ["config-icon", ["dark-red", "dark-red"], /\.ld$/i],
