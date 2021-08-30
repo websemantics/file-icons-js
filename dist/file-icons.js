@@ -526,7 +526,7 @@
     ["html5-icon", ["medium-cyan", "medium-cyan"], /\.shtml$/i],
     ["html5-icon", ["dark-red", "dark-red"], /\.scaml$/i, , false, /^scaml$/, /\.scaml$/i, /^HTML$|^scaml$/i],
     ["html5-icon", ["medium-red", "medium-red"], /\.vash$/i, , false, /^vash$/, /\.vash$/i, /^HTML$|^vash$/i],
-    ["html5-icon", ["medium-blue", "medium-blue"], /\.dtml$/i, , false, /^dtml$/, /\.dtml$/i, /^HTML$|^dtml$/i],
+    ["html5-icon", ["medium-blue", "medium-blue"], /\.(?:dtml|j2)$/i, , false, /^dtml$/, /\.dtml$/i, /^HTML$|^dtml$/i],
     ["hy-icon", ["dark-blue", "dark-blue"], /\.hy$/i, , false, , /\.hy$/i, /^Hy$|^hylang$/i],
     ["idl-icon", ["medium-blue", "medium-blue"], /\.dlm$/i, , false, , /\.idl$/i, /^IDL$/i],
     ["idris-icon", ["dark-red", "dark-red"], /\.idr$/i, , false, , /\.(?:idris|ipkg)$/i, /^Idris$/i],
